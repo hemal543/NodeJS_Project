@@ -1,0 +1,40 @@
+<%- include('layout/header') %>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header text-center bg-success text-white">
+                    <h4>Edit User (<%= user.name %>)</h4>
+                </div>
+                <div class="card-body">
+                    <form action="/update/<%= user._id %>" method="post" id="add-form" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" value="<%= user.name %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" value="<%= user.email %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" value="<%= user.phone %>" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="image" class="form-label">Choose Image</label>
+                            <input type="file" class="form-control" id="image" name="image" accept="image/*" />
+                            <img src="/<%= user.image %>" width="100" class="img-thumbnail mt-1">
+                        </div>
+                         <input type="hidden" name="old_image" value="<%= user.image %>">
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success btn-lg">Update User</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('layout/footer') %>
