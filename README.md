@@ -32,51 +32,6 @@ This project demonstrates the core principles of CRUD operations by allowing use
 
 ---
 
-## 🚦 How to Run the Project
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/crud-application.git
-cd crud-application
-
-Folder Structure
-crud-application/
-├── public/           # Static assets (CSS, JS)
-├── views/            # HTML views (using EJS or any templating engine)
-├── models/           # Mongoose schemas
-├── routes/           # Express routes
-├── app.js            # Main server file
-└── package.json      # Project metadata & dependencies
-
-👤 Project Role
-This application was created to practice and demonstrate how user information can be created, edited, updated, and deleted effectively using a full-stack approach. It’s ideal for learning backend integration and database connectivity with MongoDB.
-
-📷 Screenshots
-Add screenshots here (optional)
-
-💡 Future Enhancements
-✅ Add form validations
-
-🔐 Implement user authentication
-
-🌐 Deploy to a cloud platform (https://nodejs-project-bm5h.onrender.com/)
-
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
-
-📄 License
-This project is open-source and available under the MIT License.
-
-🌟 Show Your Support
-If you like this project, please ⭐ star the repo and share it with others!
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like help customizing the license, adding screenshot placeholders, or preparing deployment steps!
 
 
 
