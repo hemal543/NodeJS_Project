@@ -33,6 +33,14 @@ This project demonstrates the core principles of CRUD operations by allowing use
 ---
 
 
+👤 Project Role
+This application was created to practice and demonstrate how user information can be created, edited, updated, and deleted effectively using a full-stack approach. It’s ideal for learning backend integration and database connectivity with MongoDB.
+
+📷 Screenshots
+Add screenshots here (optional)
+
+🌐Live Demo (https://nodejs-project-bm5h.onrender.com/)
+
 
 
 
